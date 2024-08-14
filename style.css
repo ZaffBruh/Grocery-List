@@ -1,13 +1,37 @@
 *{
     padding: 0;
     margin: 0;
-    background: red;
 }
 
 body{
-    font: 900;
-    background: orange;
+    background: orange; 
+    font-family: monospace
 }
 .container{
-    border: 1px solid black;
+    border: 2px solid black; 
+    width: 90%; 
+    margin: auto; 
+    display: flex; 
+}
+.grocery{
+    border: 2px solid rgb(232, 19, 19); 
+    width: 600px; min-height: 100vh; 
+    margin: auto; 
+    background: white; 
+    box-shadow: 10px 10px 15px 0 black;
+}
+.grocery h1{
+    text-align: center; 
+    font-size: 2.5rem; 
+    margin-top: 1.5rem;
+}
+.grocery input{
+    font-size: 1.2rem; 
+    background: white;
+    border: 0;
+    outline: 0;
+    border-bottom: 3px solid black;
+    width: 70%;
+    margin-top: 1rem;
+    font-family: monospace;
 }
