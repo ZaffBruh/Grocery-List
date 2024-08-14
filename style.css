@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: red;
+}
+
+body{
+    font: 900;
+    background: orange;
+}
+.container{
+    border: 1px solid black;
+}

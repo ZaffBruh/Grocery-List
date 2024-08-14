@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-   
+<body style="background: orange; font-family: monospace">
+    <div className="container" 
+    style="border: 2px solid black; width: 90%; margin: auto; display: flex; ">
+        <div className="grocery"
+        style="border: 2px solid rgb(232, 19, 19); width: 600px; min-height: 100vh; margin: auto; background: gray; box-shadow: 10px 10px 15px 0 black;">
+            <h1 style="text-align: center; font-size: 2.5rem; margin-top: 1.5rem;"> Grocery List </h1>
+            <div style="text-align: center;">
+                <img id="pencil" src="pencil-solid.svg" style="height: 15px; margin-right: 7px;"/><input id="userInput" type="text" style="font-family: monospace; outline: 0; border: 0; border-bottom: 3px solid black; background: gray; width: 70%; font-size: 1.5rem;"/>   
+            </div>
+            <br>
+            <div id="allItems" style="border: 2px solid black;">
+            </div>
+        </div>
+    </div> 
     <script src="script.js"></script>
 </body>
 </html>
