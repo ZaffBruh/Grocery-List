@@ -8,13 +8,13 @@ body{
     font-family: monospace
 }
 .container{
-    border: 2px solid black; 
+    border: ; 
     width: 90%; 
     margin: auto; 
     display: flex; 
 }
 .grocery{
-    border: 2px solid rgb(232, 19, 19); 
+    border: ; 
     width: 600px; min-height: 100vh; 
     margin: auto; 
     background: white; 
